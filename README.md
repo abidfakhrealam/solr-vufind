@@ -52,3 +52,9 @@ The script will print progress information including:
 1. The script only updates documents where the language field exactly matches the source value
 2. By default, commits are deferred until all updates are complete **(always_commit=False)**
 3. Make sure to backup your Solr index before running bulk updates
+
+## Example language_mapping.txt
+   ```python
+   en = eng
+   fr = fre
+   de = ger
