@@ -33,11 +33,11 @@ This script connects to a Solr instance and updates language field values accord
 
 ## Usage
 1. Install dependencies:
-```python
-pip install pysolr
+   ```python
+   pip install pysolr
 
 2. Prepare your language_mapping.txt file
 
 3. Run the script:
-```python
-python update_languages.py
+   ```python
+   python update_languages.py
