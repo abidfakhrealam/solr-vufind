@@ -44,6 +44,11 @@ This script connects to a Solr instance and updates language field values accord
 
 ## Output
 The script will print progress information including:
-   Number of documents found for each language mapping
-   Update progress for each batch
-   Total number of updated records
+1. Number of documents found for each language mapping
+2. Update progress for each batch
+3. Total number of updated records
+
+## Important Notes
+1. The script only updates documents where the language field exactly matches the source value
+2. By default, commits are deferred until all updates are complete **(always_commit=False)**
+3. Make sure to backup your Solr index before running bulk updates
