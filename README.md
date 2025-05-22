@@ -31,14 +31,13 @@ This script connects to a Solr instance and updates language field values accord
    old_language_code = new_language_code
 
 
-Usage
-Install dependencies:
-
-bash
+## Usage
+1. Install dependencies:
+```python
 pip install pysolr
-Prepare your language_mapping.txt file
 
-Run the script:
+2. Prepare your language_mapping.txt file
 
-bash
+3. Run the script:
+```python
 python update_languages.py
