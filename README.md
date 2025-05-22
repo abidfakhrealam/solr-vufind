@@ -41,3 +41,9 @@ This script connects to a Solr instance and updates language field values accord
 3. Run the script:
    ```python
    python update_languages.py
+
+## Output
+The script will print progress information including:
+   Number of documents found for each language mapping
+   Update progress for each batch
+   Total number of updated records
