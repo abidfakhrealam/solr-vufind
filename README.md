@@ -28,7 +28,7 @@ This script connects to a Solr instance and updates language field values accord
    solr = pysolr.Solr('http://localhost:8983/solr/biblio', always_commit=False)
 2. Create a language_mapping.txt file with your language mappings in the format:
    ```python
-  old_language_code = new_language_code
+   old_language_code = new_language_code
 
 
 Usage
