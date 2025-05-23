@@ -55,6 +55,6 @@ The script will print progress information including:
 
 ## Example language_mapping.txt
    ```python
-   en = eng
-   fr = fre
-   de = ger
+   eng=English
+   fre=French
+   ger=German
